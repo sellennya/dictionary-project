@@ -9,7 +9,7 @@ export default function App() {
           <h1>Dictionary Project</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword='sunset' />
         </main>
         <footer className='App-footer'>
           <small>
