@@ -12,7 +12,7 @@ export default function Photos({ photos }) {
                 <a href={photo.src.original} target='_blank' rel='noreferrer'>
                   <img
                     src={photo.src.landscape}
-                    alt={'photos'}
+                    alt={photo.src.photographer}
                     className='img-fluid'
                   />
                 </a>
