@@ -6,7 +6,11 @@ export default function App() {
     <div className='App'>
       <div className='container'>
         <header className='App-header'>
-          <h1>Dictionary Project</h1>
+          <img
+            src={require('./assets/shecodes-logo.png')}
+            alt='shecodes-logo'
+            className='logo'
+          />
         </header>
         <main>
           <Dictionary defaultKeyword='sunset' />
